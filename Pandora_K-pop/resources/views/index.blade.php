@@ -1,6 +1,8 @@
 @extends('app')
 
-@section('title', 'トップページ')
+@section('title')
+ホーム|{{ config('app.name')}}
+@endsection
 
 
 @section('content')

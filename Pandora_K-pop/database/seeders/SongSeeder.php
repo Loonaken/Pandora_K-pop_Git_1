@@ -18,10 +18,18 @@ class SongSeeder extends Seeder
     public function run()
     {
         DB::table('songs')->insert([
+            [
             'youtube_link'=>'https://www.youtube.com/watch?v=SPYX2y4NzTU',
             'mv_image'=>'/images/loona pic 3.webp',
             'group'=>'LOONA',
             'title'=>'Flip That'
+            ],
+            [
+            'youtube_link'=>'https://www.youtube.com/watch?v=6eEZ7DJMzuk',
+            'mv_image'=>'/images/loona pic 3.webp',
+            'group'=>'IZ*ONE',
+            'title'=>'Violeta'
+            ],
         ]);
     }
 }
