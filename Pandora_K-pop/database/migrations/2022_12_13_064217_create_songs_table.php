@@ -15,6 +15,10 @@ return new class extends Migration
     {
         Schema::create('songs', function (Blueprint $table) {
             $table->id();
+            $table->string('youtube_link');
+            $table->string('mv_image');
+            $table->string('group');
+            $table->string('title');
             $table->timestamps();
         });
     }
